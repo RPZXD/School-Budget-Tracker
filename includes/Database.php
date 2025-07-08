@@ -2,8 +2,8 @@
 class Database {
     private $host = 'localhost:3306';
     private $db_name = 'phichaia_schoolbudget';
-    private $username = 'phichaia_schoolbudget';
-    private $password = '6*R9vnyh?NkbFiv9';
+    private $username = 'root';
+    private $password = '';
     private $conn;
 
     public function __construct() {
